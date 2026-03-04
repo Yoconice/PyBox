@@ -98,9 +98,10 @@ def modify_file_times(
 
 if __name__ == "__main__":
     # 示例配置（根据需求修改）
-    TARGET_FILE = r"D:\Windows Files\Desktop\Ring.mp4"  # 目标文件（用r避免转义）
-    NEW_CREATE_TIME = "2023-01-01 20:00:00"  # 新创建时间（Windows有效）
-    NEW_MODIFY_TIME = "2023-01-01 20:00:00"  # 新修改时间
+    TARGET_FILE = r"D:\Temp\快乐.mp4"  # 目标文件（用r避免转义）
+    NEW_CREATE_TIME = "2022-12-31 14:03:50"  # 新创建时间（Windows有效）
+    # NEW_MODIFY_TIME = "2022-12-31 14:03:50"  # 新修改时间
+    NEW_MODIFY_TIME = NEW_CREATE_TIME  # 新修改时间
     NEW_ACCESS_TIME = None  # 新访问时间（可设为None表示不修改）
 
     try:
